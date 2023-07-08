@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:none;
+  padding: none;
+
+}
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainHolder {
+  width: 40%;
+  height: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding-top: none;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+.title{
+  padding-bottom: 100px;
+}
+
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #242424;
+  width:100%;
+}
+
+.footer__logo {
+  display: flex;
+  scale:calc(50%);
+  justify-content: center;
+}
+
+.footer__logo--img {
+  width: 160px;
+  height: 160px;
+  /* filter: grayscale(1) invert(1); */
+}
+
+.footer__link,
+.footer__copyright {
+  color: #fff;
+}
+
+.footer__list {
+  margin: 20px 0 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__link {
+  padding: 0 8px;
+}
+
+footer{
+  position:fixed;
+  bottom:0;
+} 
+
+
+
+
+
+
+/* CSS */
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+@media (max-width: 420px) {
+  .button-84 {
+    height: 48px;
+  }
+}
+
+@media (max-width:760px){
+  .mainHolder {
+    width: 70%;
+    height: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: none;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+  }
+  
+}
+
+
+
+.smallFont{
+  font-size: x-small;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
+
+.buttonWrapper{
+  padding: 8px;
+}
+
+
+.buttonsWrapper{
+  display: flex;
+}
+
+
+
+.alert{
+  padding-top: 10px;
+  color:red;
+  font-weight:900;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+.alert1{
+  padding-top: 10px;
+  color:purple;
+  font-weight:900;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+
+.confirmButton{
+  padding-top:10px;
+  padding-bottom:28px;
+}
+
+.everyForm{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  
+
+
+
+
+}
+
+
+.entireForm{
+  padding-bottom: 40px;
+}

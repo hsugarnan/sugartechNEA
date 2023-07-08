@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.pfpWrapper{
+    /* margin-right:8%; */
+}
+
+.logo{
+    transform: all ease 500ms;
+}
+
+.logo:hover{
+    opacity: 50%;
+    filter:brightness(80%)
+}
+
+
+

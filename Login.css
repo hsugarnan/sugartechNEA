@@ -1,0 +1,45 @@
+.formWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+
+
+.labelWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.typein__box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+}
+
+form{
+    padding-bottom: 4%;
+}
+
+@media (max-width:760px){
+    .typein__box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        border-bottom: 1px solid #3a3a3a;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        outline: none;
+        padding: 0px 0px 5px 5px;
+    }
+    
+}
